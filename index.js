@@ -5,6 +5,10 @@ const server = http.createServer((req, res) => {
     if(url == "/"){
         res.end("ok")
     }
+
+    if(url == "/users"){
+        res.end("ok")
+    }
 })
 
 
